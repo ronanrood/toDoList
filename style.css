@@ -88,4 +88,8 @@ img {
   .containerTask >ul>li>p{
     font-size: 12px;
   }
+
+  body{
+    background-size: auto;
+  }
 }
