@@ -8,9 +8,9 @@
 }
 body {
   background-image: url(assets/minimalist-landscape-to-1920x1080.jpg);
-
+  
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100vw 100vh;
   display: flex;
   justify-content: center;
 }
@@ -67,4 +67,8 @@ img {
 }
 .containerTask:hover img {
   opacity: 100%;
+}
+
+.done{
+  text-decoration: line-through;
 }
