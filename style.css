@@ -72,3 +72,20 @@ img {
 .done{
   text-decoration: line-through;
 }
+
+@media screen and (max-width:600px){
+  .containerList{
+    width: 300px;
+  }
+  .inputTask{
+    width: 200px;
+    font-size: 12px;
+  }
+  .buttonTask{
+    width: 50px;
+    font-size: 8px;
+  }
+  .containerTask >ul>li>p{
+    font-size: 12px;
+  }
+}
